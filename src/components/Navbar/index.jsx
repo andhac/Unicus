@@ -13,10 +13,10 @@ function LargeNav() {
           </div>
           <div className="nav">
             <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">For Creators</a></li>
-              <li><a href="#">Token</a></li>
-              <li><a href="#">Blog</a></li>
+              <li><a href="https://unicus-demo.netlify.app/#">About</a></li>
+              <li><a href="https://unicus-demo.netlify.app/#">For Creators</a></li>
+              <li><a href="https://unicus-demo.netlify.app/#">Token</a></li>
+              <li><a href="https://unicus-demo.netlify.app/#">Blog</a></li>
           </ul>
           
         <div>
