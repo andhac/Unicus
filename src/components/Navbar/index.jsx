@@ -7,18 +7,19 @@ import { RiSearch2Line } from "react-icons/ri";
 function LargeNav() {
   return (
     <>
-      <div className="hidden lg:inline container  mx-auto bg-black">
+      <div className="hidden lg:inline container px-20  mx-auto bg-black">
         <div className="gap-4 w-full items-center justify-around flex">
           <div className="w-45">
             <img
               src="https://unicus.one/wp-content/uploads/2022/02/Unicus-logo.png"
               alt="Unicus"
-              className="w-50 pr-10"
             ></img>
           </div>
-         <div className=" text-white pl-40 w-5/4"><strong>
-           About
-           </strong> </div>
+          <div className="w-64.3118px text-white shadow-md  flex items-center gap-3  ">
+<ul>
+  <li>About</li>
+</ul>
+          </div>
         </div>
       </div>
     </>
