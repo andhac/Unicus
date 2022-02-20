@@ -13,11 +13,10 @@ function LargeNav() {
           </div>
           <div className="nav">
             <ul>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">For Creators</a></li>
+              <li><a href="#">Token</a></li>
+              <li><a href="#">Blog</a></li>
           </ul>
           
         <div>

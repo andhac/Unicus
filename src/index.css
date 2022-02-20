@@ -2,7 +2,6 @@
 .container{
     padding: 0 0 0 180px;
     width: 100%;
-    margin-top: -10px;
     display: flex;
     color: aliceblue;
     justify-content: space-between;
@@ -70,6 +69,8 @@
     width: 50px;
 }
 .eth_icon{
+    margin-top: -10px;
+    width: 80px;
     height: 60px;
 }
 
@@ -96,6 +97,10 @@
     margin-top: 10px;
     font-size: 0.85rem;
 }
+.feature_container > p:last-of-type{
+    font-size: 1.5rem;
+    margin: 50px;
+}
 .cardHolder{
     margin-top:50px;
     padding: 0 150px;
@@ -109,7 +114,7 @@
 }
 .cutom{
     padding: 30px 30px;
-    border:1px solid #fff4;
+    border:1px solid rgba(75, 107, 224, 0.26);
     display: inline-block;
     height:250px
 }

@@ -45,7 +45,7 @@ function HomePage() {
           <li>
             <img src="https://unicus.one/wp-content/uploads/2022/02/com.myetherwallet.mewwallet_1.png" alt="" />
           </li>
-        </ul>
+          </ul>
       </div>
       </div>
     </>
