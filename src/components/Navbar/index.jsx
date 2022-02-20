@@ -1,33 +1,37 @@
 import React, { useState } from "react";
-import { FaUserAlt } from "react-icons/fa";
-import { HiLocationMarker } from "react-icons/hi";
-import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
-import { RiSearch2Line } from "react-icons/ri";
+
 
 function LargeNav() {
   return (
     <>
-      <div className="hidden lg:inline container px-20  mx-auto bg-black">
-        <div className="gap-4 w-full items-center justify-around flex">
-          <div className="w-45">
+      <div className="container">
+          <div className="logo">
             <img
               src="https://unicus.one/wp-content/uploads/2022/02/Unicus-logo.png"
               alt="Unicus"
             ></img>
           </div>
-          <div className="w-64.3118px text-white shadow-md  flex items-center gap-3  ">
-<ul>
-  <li>About</li>
-</ul>
-          </div>
+          <div className="nav">
+            <ul>
+              <li>About</li>
+              <li>About</li>
+              <li>About</li>
+              <li>About</li>
+              <li>About</li>
+          </ul>
+          
+        <div>
+          <input type="button" value="Enter App"/>
+        </div>
         </div>
       </div>
+      <hr />
     </>
   );
 }
 function Navbar() {
   return (
-    <nav className="p-4  flex bg-black shadow-md lg:shadow-none w-full items-center">
+    <nav className="new">
       <LargeNav />
     </nav>
   );

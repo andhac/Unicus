@@ -1,3 +1,135 @@
+
+.container{
+    padding: 0 0 0 180px;
+    width: 100%;
+    margin-top: -10px;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav ul li{
+    font-weight: 600;
+    margin-right: 40px;
+    float: left;
+}
+.nav input{
+    padding: 10px 30px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0) linear-gradient(320deg, rgb(75, 107, 224) 0%, rgb(179, 45, 253) 100%) repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+
+
+
+
+.home_container{
+    padding-top: 50px;
+}
+
+.home_container_left{
+    float: left;
+    width: 50%;
+}
+.home_container_left h5{
+    background-image:linear-gradient(320deg, rgb(179, 45, 253) 0%, rgb(75, 107, 224) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.home_container_right{
+    width: 50%;
+    float: right;
+    padding: 0px 0 80px 200px;
+    padding-top:;
+}
+.home_container_left span{
+    word-spacing: 0px;
+    line-height: 60px;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+.home_container_left h6 {
+    margin-top: 20px;
+}
+.home_footer{
+    display: flex;
+    justify-content: center ;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.home_footer ul li {
+    margin: auto 45px;
+    float: left;
+    height: 60px;
+    width: 50px;
+}
+.eth_icon{
+    height: 60px;
+}
+
+
+
+.feature_container > *
+{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+.feature_container>h2{
+    background-image:linear-gradient(320deg, rgb(179, 45, 253) 0%, rgb(75, 107, 224) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.feature_container>h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.feature_container>p{
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+.cardHolder{
+    margin-top:50px;
+    padding: 0 150px;
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-auto-rows: auto;
+    
+    grid-gap: 1rem;
+}
+.cutom{
+    padding: 30px 30px;
+    border:1px solid #fff4;
+    display: inline-block;
+    height:250px
+}
+.cardIcon{
+    color:  rgb(179, 45, 253);
+    width:100%;
+    font-size: 2rem;
+    height: 50px;
+}
+.cutom p{
+    text-align: left;
+}
+.cutom p:first-of-type{
+    font-size: 1.5rem;
+}
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
