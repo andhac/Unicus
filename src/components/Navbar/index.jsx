@@ -24,7 +24,7 @@ function LargeNav() {
         </div>
         </div>
       </div>
-      <hr />
+      <hr className="navHR" />
     </>
   );
 }

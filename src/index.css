@@ -1,11 +1,15 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
-    padding: 0 0 0 180px;
+    margin: 0;
+    padding: 10px 200px 0 300px;
     width: 100%;
     display: flex;
     color: aliceblue;
     justify-content: space-between;
-    align-items: center;
 }
 .nav{
     display: flex;
@@ -22,17 +26,25 @@
     background: rgba(0, 0, 0, 0) linear-gradient(320deg, rgb(75, 107, 224) 0%, rgb(179, 45, 253) 100%) repeat scroll 0% 0% / auto padding-box border-box;
 }
 
-
+.navHR{
+    display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style: inset;
+  border-width: 20%;
+  background-color: rgba(255, 255, 255, 0.005);
+}
 
 
 
 .home_container{
-    padding-top: 50px;
+    padding: 50px 250px 0 140px;
 }
 
 .home_container_left{
+    padding-bottom: 120px;
     float: left;
-    width: 50%;
+    width: 60%;
 }
 .home_container_left h5{
     background-image:linear-gradient(320deg, rgb(179, 45, 253) 0%, rgb(75, 107, 224) 100%);
@@ -42,15 +54,15 @@
     margin-bottom: 20px;
 }
 .home_container_right{
-    width: 50%;
+    padding-bottom: 120px;
+    width: 40%;
     float: right;
-    padding: 0px 0 80px 200px;
 }
 .home_container_left span{
     word-spacing: 0px;
     line-height: 60px;
     font-weight: bolder;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .home_container_left h6 {
@@ -62,24 +74,35 @@
     width: 100%;
     margin-bottom: 30px;
 }
+.home_footer ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
 .home_footer ul li {
-    margin: auto 45px;
     float: left;
     height: 60px;
-    width: 50px;
+    width: 70px;
 }
+.home_footer ul li:first-of-type{
+}
+.home_footer ul li:last-of-type{
+}
+
 .eth_icon{
     margin-top: -10px;
-    width: 80px;
-    height: 60px;
+    width: 120px;
+    height: 90px;
 }
 
 
 
 .feature_container > *
 {
+    padding: 0 300px 0 200px;
     width: 100%;
-    text-align: center;
     color: aliceblue;
 }
 .feature_container>h2{
@@ -87,23 +110,26 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.5rem;
+    text-align: center;
     font-weight: bold;
 }
 .feature_container>h1{
     font-size: 2.5rem;
+    text-align: center;
     font-weight: 500;
 }
 .feature_container>p{
     margin-top: 10px;
     font-size: 0.85rem;
+    text-align: center;
 }
 .feature_container > p:last-of-type{
     font-size: 1.5rem;
-    margin: 50px;
+    margin: 50px 0 0 0;
 }
 .cardHolder{
-    margin-top:50px;
-    padding: 0 150px;
+    margin-top:40px;
+    padding: 0 300px;
     display: grid;
     
     grid-template-columns: repeat(3, 1fr);
@@ -113,10 +139,10 @@
     grid-gap: 1rem;
 }
 .cutom{
-    padding: 30px 30px;
+    padding: 40px;
     border:1px solid rgba(75, 107, 224, 0.26);
     display: inline-block;
-    height:250px
+    border-radius: 40px;
 }
 .cardIcon{
     color:  rgb(179, 45, 253);

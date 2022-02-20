@@ -17,7 +17,7 @@ function feature() {
           3.0 Economy
         </p>
         <div className="cardHolder">
-          <div class="cutom bg-transparent shadow-lg rounded-lg">
+          <div class="cutom bg-transparent shadow-lg">
             <div>
               <h3 className="cardIcon">
                 <FaAsterisk />
@@ -26,7 +26,7 @@ function feature() {
               <p>A multi-chain NFT Marketplace supporting both ERC 721 and 1155 standards and a variety of asset classes, supporting payments through both credit cards and cryptocurrencies</p>
             </div>
           </div>
-          <div class="cutom bg-transparent shadow-lg rounded-lg">
+          <div class="cutom bg-transparent shadow-lg">
             <div>
               <h3 className="cardIcon">
                 <FaAnchor />
@@ -37,7 +37,7 @@ function feature() {
               <p>UnicusOne widgets will allow any developer to integrate Web 3.0 utilities to their Web 2.0 application hassle-free, within 15 minutes</p>
             </div>
           </div>
-          <div class="cutom bg-transparent shadow-lg rounded-lg">
+          <div class="cutom bg-transparent shadow-lg">
             <div>
               <h3 className="cardIcon">
                 <FaStoreAlt />
@@ -48,7 +48,7 @@ function feature() {
               <p>An option for partners to Instantly build their own NFT Marketplace instantly using UnicusOne's NFT infrastructure</p>
             </div>
           </div>
-          <div class="cutom bg-transparent shadow-lg rounded-lg">
+          <div class="cutom bg-transparent shadow-lg">
             <div>
               <h3 className="cardIcon">
                 <FaVrCardboard />
@@ -59,7 +59,7 @@ function feature() {
               <p>We offer seamless integration with UnicusOne Web 3.0 modules like Generative Art Engine, Whitelisting & Airdrops, NFT Reveal, and Token Swap for Metaverse and Gaming Projects</p>
             </div>
           </div>
-          <div class="cutom bg-transparent shadow-lg rounded-lg">
+          <div class="cutom bg-transparent shadow-lg">
             <div>
               <h3 className="cardIcon">
                 <FaUserCog />
@@ -70,7 +70,7 @@ function feature() {
               <p>Easy to use APIs and SDKs for partners that convert digital asset platforms to NFT marketplaces</p>
             </div>
           </div>
-          <div class="cutom bg-transparent shadow-lg rounded-lg">
+          <div class="cutom bg-transparent shadow-lg">
             <div>
               <h3 className="cardIcon">
                 <FaDollarSign />
