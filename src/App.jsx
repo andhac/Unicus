@@ -1,5 +1,4 @@
 import "./App.css"
-import{Routes} from "react-router-dom";
 import HomelayoutHoc from "./HOC/Home.hoc";
 import HomePage from "./pages/HomePage";
 

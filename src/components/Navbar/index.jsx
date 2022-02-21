@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 
 function LargeNav() {
@@ -13,11 +13,10 @@ function LargeNav() {
           </div>
           <div className="nav">
             <ul>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
+              <li><a href="https://unicus-demo.netlify.app/#">About</a></li>
+              <li><a href="https://unicus-demo.netlify.app/#">For Creators</a></li>
+              <li><a href="https://unicus-demo.netlify.app/#">Token</a></li>
+              <li><a href="https://unicus-demo.netlify.app/#">Blog</a></li>
           </ul>
           
         <div>
@@ -25,7 +24,7 @@ function LargeNav() {
         </div>
         </div>
       </div>
-      <hr />
+      <hr className="navHR" />
     </>
   );
 }
